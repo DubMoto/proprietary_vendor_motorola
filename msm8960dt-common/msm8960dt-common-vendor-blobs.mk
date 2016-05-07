@@ -225,3 +225,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/msm8960dt-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+PRODUCT_COPY_FILES += \
+    vendor/motorola/msm8960dt-common/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
+    vendor/motorola/msm8960dt-common/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
+    vendor/motorola/msm8960dt-common/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
+    vendor/motorola/msm8960dt-common/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
+    vendor/motorola/msm8960dt-common/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
+    vendor/motorola/msm8960dt-common/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/motorola/msm8960dt-common/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so
